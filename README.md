@@ -2,6 +2,10 @@
 
 A lightweight, document-based AI knowledge assistant powered by Azure OpenAI. Upload documents and get intelligent answers based strictly on your uploaded content.
 
+## Online Demo
+- https://mini-rag.bravemushroom-502e9645.southeastasia.azurecontainerapps.io/
+
+
 ## ✨ Features
 
 - 🧠 **AI-Powered**: Uses Azure OpenAI for intelligent responses
