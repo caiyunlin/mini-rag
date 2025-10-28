@@ -1,0 +1,29 @@
+# Essential Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+jinja2==3.1.2
+python-multipart==0.0.6
+
+# Essential AI (without heavy dependencies)
+openai>=1.10.0,<2.0.0
+
+# Lightweight Vector Database
+chromadb==0.4.22
+
+# Document Processing
+pypdf==3.17.4
+python-docx==1.1.0
+beautifulsoup4==4.12.2
+markdown==3.5.2
+
+# Lightweight Text Processing (CPU only)
+sentence-transformers==2.2.2
+
+# Configuration
+python-dotenv==1.0.0
+pydantic==2.5.2
+pydantic-settings==2.1.0
+
+# Utilities
+aiofiles==23.2.1
+httpx==0.26.0

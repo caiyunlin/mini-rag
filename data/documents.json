@@ -1,0 +1,28 @@
+{
+  "3873c1c5-4410-42fa-9cc3-ed8dd7c0ddb8": {
+    "filename": "powershell.md",
+    "markdown_file": "/app/data/markdown/3873c1c5-4410-42fa-9cc3-ed8dd7c0ddb8.md",
+    "upload_time": "2025-10-28T13:40:13.591126",
+    "content_length": 10189,
+    "chunks_count": 15,
+    "metadata": {
+      "source": "powershell.md",
+      "file_path": "/app/data/uploads/4080782b-b2f7-4586-ab0e-bf8605c09870_powershell.md",
+      "upload_time": "2025-10-28T13:40:13.576340",
+      "file_size": 13006
+    }
+  },
+  "80365606-05b6-4b23-af86-fde3616605f0": {
+    "filename": "test_document.txt",
+    "markdown_file": "/app/data/markdown/80365606-05b6-4b23-af86-fde3616605f0.md",
+    "upload_time": "2025-10-28T13:47:02.780670",
+    "content_length": 1107,
+    "chunks_count": 2,
+    "metadata": {
+      "source": "test_document.txt",
+      "file_path": "/app/data/uploads/27665d9e-12c1-41b7-a3f8-cfd911f02d3f_test_document.txt",
+      "upload_time": "2025-10-28T13:47:02.762946",
+      "file_size": 1253
+    }
+  }
+}

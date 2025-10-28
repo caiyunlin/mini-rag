@@ -1,0 +1,18 @@
+services:
+  mini-rag-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - APP_HOST=0.0.0.0
+      - APP_PORT=8000
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+
+networks:
+  mini-rag-network:
+    driver: bridge
