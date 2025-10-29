@@ -1,20 +1,20 @@
-PowerShell HTTP 请求指南
+PowerShell HTTP Request Guide
 
-在PowerShell中，有几种发送HTTP请求的方法：
+There are several ways to send HTTP requests in PowerShell:
 
 1. Invoke-RestMethod
-   这是最常用的命令，用于调用REST API：
+   This is the most commonly used command for calling REST APIs:
    ```powershell
    $response = Invoke-RestMethod -Uri "https://api.example.com/data" -Method GET
    ```
 
 2. Invoke-WebRequest  
-   提供更详细的响应信息：
+   Provides more detailed response information:
    ```powershell
    $response = Invoke-WebRequest -Uri "https://api.example.com/data" -Method GET
    ```
 
-3. 发送POST请求
+3. Sending POST requests
    ```powershell
    $body = @{
        name = "test"
@@ -24,7 +24,7 @@ PowerShell HTTP 请求指南
    $response = Invoke-RestMethod -Uri "https://api.example.com/data" -Method POST -Body $body -ContentType "application/json"
    ```
 
-4. 添加请求头
+4. Adding request headers
    ```powershell
    $headers = @{
        "Authorization" = "Bearer your-token"
@@ -34,7 +34,7 @@ PowerShell HTTP 请求指南
    $response = Invoke-RestMethod -Uri "https://api.example.com/data" -Headers $headers
    ```
 
-5. 处理响应
+5. Handling responses
    ```powershell
    try {
        $response = Invoke-RestMethod -Uri "https://api.example.com/data"
@@ -45,4 +45,4 @@ PowerShell HTTP 请求指南
    }
    ```
 
-这些方法涵盖了PowerShell中最常见的HTTP请求场景。
+These methods cover the most common HTTP request scenarios in PowerShell.
