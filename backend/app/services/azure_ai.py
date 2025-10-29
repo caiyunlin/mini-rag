@@ -67,7 +67,7 @@ class AzureAIService:
             model_name = settings.azure_openai_deployment_name or settings.azure_ai_model_name or "gpt-4"
             
             # Set system message for English responses
-            system_message = "You are a Virtual Mentor, a knowledge base assistant. Please answer questions in English only, based on the provided context. Be helpful, clear, and professional."
+            system_message = "You are Mini-RAG, a knowledge base assistant. Please answer questions in English only, based on the provided context. Be helpful, clear, and professional."
             
             response = await asyncio.to_thread(
                 self.openai_client.chat.completions.create,
@@ -104,7 +104,7 @@ class AzureAIService:
         if not context or context.strip() == "":
             return ""  # No context available
             
-        prompt = f"""You are Virtual Mentor, a knowledge base assistant. Please answer the user's question strictly based on the provided context information.
+        prompt = f"""You are Mini-RAG, a knowledge base assistant. Please answer the user's question strictly based on the provided context information.
 
 Important rules:
 1. Only use the provided context information to answer questions
@@ -126,7 +126,7 @@ Please answer based on the above context information:"""
     
     def _mock_response(self, query: str, context: str) -> str:
         """Generate mock response for development/testing."""
-        return f"""Virtual Mentor - Mock Response for development:
+        return f"""Mini-RAG - Mock Response for development:
 
 Query: {query}
 

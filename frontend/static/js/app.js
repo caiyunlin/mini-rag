@@ -240,7 +240,7 @@ class MiniRAGApp {
                 </div>
                 
                 <div class="query-answer">
-                    <h6><i class="fas fa-user-graduate me-2"></i>Virtual Mentor</h6>
+                    <h6><i class="fas fa-user-graduate me-2"></i>Mini-RAG</h6>
                     <div class="mt-2">${this.formatText(result.answer)}</div>
                 </div>
                 

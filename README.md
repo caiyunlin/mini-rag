@@ -1,4 +1,4 @@
-# Virtual Mentor - AI Knowledge Assistant
+# Mini-RAG - AI Knowledge Assistant
 
 A lightweight, document-based AI knowledge assistant powered by Azure OpenAI. Upload documents and get intelligent answers based strictly on your uploaded content.
 
@@ -108,7 +108,7 @@ CHUNK_OVERLAP=200
    - Click "Upload Document"
 
 2. **Ask Questions**
-   - Enter your question in the "Ask Virtual Mentor" area
+   - Enter your question in the "Ask Mini-RAG" area
    - Adjust query parameters (optional)
    - Click "Submit Query"
 

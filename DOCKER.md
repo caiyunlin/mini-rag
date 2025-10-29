@@ -1,4 +1,4 @@
-# Virtual Mentor - Docker Deployment Guide
+# Mini-RAG - Docker Deployment Guide
 
 ## Quick Start
 
